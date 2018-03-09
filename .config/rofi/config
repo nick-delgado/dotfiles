@@ -1,0 +1,3 @@
+rofi.theme: dracula 
+rofi.width: 100
+rofi.lines: 5 
