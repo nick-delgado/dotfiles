@@ -34,7 +34,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator battery background_job
 
 bindkey -v
 bindkey '^R' history-incremental-search-backward
-source ~/._zshcomprc
+#source ~/._zshcomprc
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -42,7 +42,7 @@ source ~/._zshcomprc
 if xhost >& /dev/null; then
 	ZSH_THEME="powerlevel9k/powerlevel9k";
 else
-	ZSH_THEME="robbyrussell";
+	ZSH_THEME="darkblood";
 fi
 
 # Set list of themes to load
